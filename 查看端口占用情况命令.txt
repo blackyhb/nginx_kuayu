@@ -1,0 +1,6 @@
+查看端口占用情况   使用git bash here  
+
+netstat -ano | findstr 80  查出pid号
+
+
+tasklist | findstr "pid"  通过pid号查出那个系统

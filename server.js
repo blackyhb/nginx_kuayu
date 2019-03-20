@@ -2,11 +2,11 @@
 /*栗子*/
 var data = [
 	{
-		name:'dongdong',
-		port:63341,
-		path:'F:/demo/jquery/practice/',
-		index:'index',
-		url:"http://192.168.1.227/"
+		name:'dongdong',            //随便
+		port:63341,         //监听端口   启动nginx   浏览器输入本机ip地址+这个端口号
+		path:'F:/demo/jquery/practice/',  //对应index.html的路径
+		index:'index',  //入口文件  一般为index.html
+		url:"http://192.168.1.227/"   //请求服务器的ip
 	}
 ]
 
